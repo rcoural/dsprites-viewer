@@ -1,0 +1,18 @@
+/build/
+/cmake-build-*/
+*.bmp
+*.png
+!docs/screenshot.png
+*.o
+*.obj
+.DS_Store
+.idea/
+.cache/
+compile_commands.json
+
+# never commit copyrighted game assets
+*.RSC
+*.rsc
+
+# local-only notes (kept on my machine, not published)
+docs/dsprites-format.md
